@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GrowthHackingTHPQuinteflushroyale</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <title>The Hacking Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">The Hacking Project</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/etudiant" class="navbar-link">Je suis étudiant</a></li>
+            <li class="active"><a href="/ville" class="navbar-link">Je suis une ville</a></li>
+            <li class="active"><a href="/qui-sommes-nous" class="navbar-link">Qui sommes-nous ?</a></li>
+            <li><a href="/je-veux-y-participer" class="navbar-link">Je veux y participer</a></li>
+            <li><a href="https://www.facebook.com/thehackingproject/" class="navbar-link"><img src="assets/fb.png" alt="logo-facebook" class="logo-facebook">
+</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <%= yield %>
   </body>
+
 </html>
