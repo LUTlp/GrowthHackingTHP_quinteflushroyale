@@ -3,11 +3,11 @@ class HomeController < ApplicationController
   def index
   end
 
-  def index_2
+  def etudiant
   end
 
-  def index_3
-  end 
+  def ville
+  end
 
   def who
   end
