@@ -28,6 +28,20 @@ h1
   padding: 50px;
 }
 
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover
+{
+  color: white;
+  text-decoration: none;
+}
+
+
 
 /**************************
   DEFAULT BOOTSTRAP STYLES
@@ -123,7 +137,7 @@ h1
 
 .navbar
 {
-  background: #007299;
+  background: linear-gradient(50deg, rgba(#007299, 1) 20%,rgba(22, 203, 242, 1) 100%);
   color: white;
   height: 60px;
 }
@@ -268,4 +282,40 @@ a.navbar-link
 {
   background-color: rgba(250, 250, 250, 0);
   background-size: cover;
+}
+
+.preuve-container
+{
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: armenian;
+
+}
+
+.preuve-link
+{
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.preuve-p
+{
+  text-align: center;
+  font-size: 1em;
+  color: #007299;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.preuve-title
+{
+    padding: 10px 10px 30px 10px;
+    color: #007299;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
 }
