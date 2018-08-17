@@ -1,16 +1,14 @@
-# README
-peypeyyyyy c'est moi !
 https://dashboard.heroku.com/apps/growthhackingquinteroyale/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Growthhack
 
-Things you may want to cover:
+* [Clique pour aller sur notre site](https://dashboard.heroku.com/apps/growthhackingquinteroyale/) 
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+Clone ou dowload, 
+Déplace le fichier tweet_serv.rb du dossier qui n'est autre que la procédure du bot twitter avant de bundle.
 
 
 
-test encore peypeyyyyy
+
